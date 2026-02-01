@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin:0 ;
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+div {
+  padding: 8px;
+  padding-left: 32px;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgba(43, 6, 72, 1) 0%, rgba(83, 5, 110, 1) 50%, rgba(113, 13, 108, 1) 100%);
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 32;
+}
+
+.inline {
+  display: inline-block;
+  padding: 20px;
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+  padding: 0;
+}
+
+img {
+  margin: 2px;
+  vertical-align: middle;
+}
+
+.inlineheader {
+  margin: 0 !important;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+a {
+ corner-shape: bevel;
+ border-radius: 10px;
+ border: 3px solid black;
+ padding: 20px;
+ background-color: rgba(83, 5, 110, 1);
+ transition: background-color 0.3s ease;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ display: block;
+}
+
+a:hover {
+ background-color: rgba(113, 13, 108, 1);
+ text-decoration: underline;
+}
